@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftyJSON
 
 class Weather{
     var cityname = ""
@@ -18,4 +19,8 @@ class Weather{
     var windScale = ""
     var pressure = ""
     var vis = ""
+    var cityid = ""
+    var json:JSON = ""
+    var hour = ""
+    var index:Int = 0
 }
